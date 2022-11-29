@@ -8,7 +8,7 @@
     border: 3px solid black;
     max-width: 650px;
     margin: 20px auto;
-    padding: 1rem;
+    padding: 1.5rem;
     position: relative;
     border-top-left-radius: 0.5rem;
     border-top-right-radius: 0.5rem;
@@ -17,13 +17,28 @@
     border-bottom-right-radius: 0.5rem;
 }
 
-/* .num-display{
+.num-display{
     position: absolute;
-    left: -5;
+ 
+    top: 0;
+    left: 0;
  
     border: 2px solid lightcoral;
     background-color: lightcoral;
     border-radius: 50%;
-    padding: 0.25rem;
+    padding-top: 0.45rem;
+    padding-bottom: 0.45rem;
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
     color: white;
-} */
+    font-size: x-small;
+}
+
+
+.close{
+    position: absolute;
+    right: 0;
+    top: 0;
+    border: none;
+    background-color: none;
+}
